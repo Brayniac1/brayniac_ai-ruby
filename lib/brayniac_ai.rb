@@ -1,5 +1,7 @@
 require "brayniac_ai/version"
 
+require 'activeresource'
+
 require "brayniac_ai/aws_signature_headers"
 require "brayniac_ai/aws_request_signing"
 require "brayniac_ai/aws_signed_connection"
